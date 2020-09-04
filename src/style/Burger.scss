@@ -1,0 +1,18 @@
+.burger {
+    float: right;
+    display: block;
+    position: fixed;
+    right: 45px;
+    margin-top: 29px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#circle {
+    transform-origin: center center;
+}
+  
+#circle:active {
+    stroke-width: 10px;
+    transform:scale(1.1, 1.1);
+}

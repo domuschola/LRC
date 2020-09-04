@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+
+.navlink {
+    margin-top: 15px;
+}
+
+.link-text {
+    color:black;
+    padding: 2px;
+    transition: 0.5s;
+}
+
+.link-text:hover {
+    color:black;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.3s;
+}
