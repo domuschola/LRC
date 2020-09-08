@@ -2,3 +2,7 @@
   text-align: center;
   /* background-color: rosybrown; */
 }
+
+html {
+  scroll-behavior: smooth;
+}
