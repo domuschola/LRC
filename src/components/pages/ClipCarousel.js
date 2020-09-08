@@ -44,6 +44,13 @@ export class ClipCarousel extends Component {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
+                                src={LRC7}
+                                alt="LRC7"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
                                 src={LRC1}
                                 alt="LRC1"
                                 
@@ -82,13 +89,6 @@ export class ClipCarousel extends Component {
                                 className="d-block w-100"
                                 src={LRC6}
                                 alt="LRC6"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={LRC7}
-                                alt="LRC7"
                             />
                         </Carousel.Item>
                     </Carousel>

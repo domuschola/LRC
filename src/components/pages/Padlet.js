@@ -6,7 +6,7 @@ export class Padlet extends Component {
         return (
             <div className="padlet-embed">
                 <p>
-                    <iframe title="padlet_iframe" src="https://padlet.com/embed/h1is5nyosjiozjjh" frameborder="0" allow="camera;microphone;geolocation">
+                    <iframe title="padlet_iframe" src="https://padlet.com/embed/h1is5nyosjiozjjh" frameborder="10" allow="camera;microphone;geolocation">
                     </iframe>
                 </p>
                 padlet

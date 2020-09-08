@@ -29,6 +29,10 @@ export class Home extends Component {
                 </section>
 
                 <section className="idunno">
+                    <iframe title="sampleDoc" 
+                        src="https://docs.google.com/document/d/e/2PACX-1vQyR8feuqQcW_JdkUYYhtt9aoFgWVAHCOuK6b9L95uRC2_wu-vpHZg5wqDLWkhkiDmW3c2u_QWF_BPo/pub?embedded=true"
+                        frameBorder="0">
+                    </iframe>
                     <Filler />
                 </section>
 
