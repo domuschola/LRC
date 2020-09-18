@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   /* background-color: rosybrown; */
+  
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 html {

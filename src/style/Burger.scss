@@ -5,10 +5,16 @@
     right: 45px;
     margin-top: 29px;
     z-index: 2;
+    transition: transform 2s;
     cursor: pointer;
 }
 
+// #burger_svg:active #burger_circle {
+    // transform:scale(500, 500);
+// }
+
 #burger_circle {
+    transition: transform .2s;
     transform-origin: center center;
 }
   

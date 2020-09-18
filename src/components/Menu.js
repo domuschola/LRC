@@ -6,11 +6,15 @@ import '../style/Menu.scss';
 export class Menu extends Component {
     
     openNav = () => {
-        document.getElementById("popup_menu").style.width = "100%";
+        // document.getElementById("popup_menu").style.width = "100%";
+        // document.getElementById("popup_menu").style.height = "100%";
+        document.getElementById("popup_menu").style.display = "block";
     }
     
     closeNav() {
-        document.getElementById("popup_menu").style.width = "0%";
+        // document.getElementById("popup_menu").style.width = "0%";
+        // document.getElementById("popup_menu").style.height = "0%";
+        document.getElementById("popup_menu").style.display = "none";
         console.log("click!");
     }
     

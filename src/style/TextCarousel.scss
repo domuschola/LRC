@@ -1,0 +1,35 @@
+.carousel_side_text {
+    position: absolute;
+    display: block;
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+    animation: ease-in;
+}
+
+.carousel_side_text_svg{
+    position: absolute;
+    text-align: left;
+    width: 25vw;
+    margin-left: 30px;
+}
+
+// .carousel_side_text_svg .path {
+//     stroke-dasharray: 50;
+//     stroke-dashoffset: 5000;
+// }
+
+// .carousel_side_text_svg .path:nth-child(2) {
+//     stroke-width: 10;
+//     animation: letter-animation 8s linear forwards;
+//     animation-delay: -0.25s;
+// }
+
+// @keyframes letter-animation {
+//     0% {
+//         stroke-dashoffset: 2600;
+//     }
+//     100% {
+//         stroke-dashoffset: 0;
+//     }
+// }
