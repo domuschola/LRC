@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../style/DISLogo.scss';
 import MiniLogo from "../images/mini-logo.png";
+import '../style/DISLogo.scss';
 
 export class DISLogo extends Component {
     constructor(props) {

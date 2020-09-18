@@ -6,3 +6,12 @@
     margin-top: 26px;
     cursor: pointer;
 }
+
+#destiny_circle {
+    transform-origin: center center;
+}
+  
+#destiny_svg:hover #destiny_circle {
+    stroke-width: 7px;
+    transform:scale(1, 1);
+}

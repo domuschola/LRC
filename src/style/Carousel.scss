@@ -4,19 +4,60 @@
     width: 100%;
 }
 
-.carousel_images img {
+.carousel_btn {
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel_btn .prev_btn, .carousel_btn .next_btn {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 980%;
+    border-radius: 50%;
+    background-color: #a11c21;
+    // background-color: #560000;
+    outline: none;
+
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+}
+
+.next_arrow_btn, .prev_arrow_btn {
+    // color: #d28616;
+    color: #ffcd01;
+}
+
+.carousel_btn .prev_btn:hover, .carousel_btn .next_btn:hover {
+    background-color: #23262d;
+    cursor: pointer;
+}
+
+// .carousel_btn .next_btn:hover .next_arrow_btn, .carousel_btn .prev_btn:hover .prev_arrow_btn {
+//     color: #d28616;
+// }
+
+.carousel_btn .prev_btn {
+    margin-top: 24vw;
+}
+.carousel_btn .next_btn {
+    margin-top: 1vw;
+}
+
+.lrc_img {
     position: relative;
-    width: 100%;
+    display: block;
+    width: 75%;
+    float: right;
     height: 50vw;
 }
 
-.carousel_images {
-    clip-path: circle(60% at 75vw);
+.mUZZN {
+    margin: 0!important;
+}
 
-    // clip-path: polygon(45% 0, 100% 0, 100% 100%, 45% 100%, 25% 50%);
-
-    /* values are from-top, from-right, from-bottom, from-left */
-    // clip-path: inset(0 0 0 73%);
+.carousel_slide {
+    clip-path: circle(60% at 78vw);
 }
 
 // .carousel-control-prev {

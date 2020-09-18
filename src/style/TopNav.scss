@@ -1,0 +1,50 @@
+.top_nav {
+    display: block;
+    position: fixed;
+    background: #464444;
+    width: 100%;
+    height: 28px;
+    z-index: 2;
+}
+
+.dis_container {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 22px;
+}
+
+.dis_link {
+    float: right;
+    text-align: right; 
+    font-family: 'hoefler-text';
+    color: #FFFFFF;
+    background: #5D5D5D;
+    margin-top: -3px;
+    padding: 0px 10px 31px 10px;
+    transition: 0.5s;
+    height: 28px;
+}
+
+.dis_link:hover, .cism_link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FAB10C;
+}
+
+.cism_container {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 22px;
+}
+
+.cism_link {
+    float: right;
+    text-align: right; 
+    font-family: 'hoefler-text';
+    color: #FFFFFF;
+    background: #5D5D5D;
+    margin-top: -3px;
+    padding: 0px 10px 31px 10px;
+    transition: 0.5s;
+    height: 28px;
+}

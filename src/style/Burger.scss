@@ -1,4 +1,4 @@
-.burger {
+#burger_svg {
     float: right;
     display: block;
     position: fixed;
@@ -8,11 +8,10 @@
     cursor: pointer;
 }
 
-#circle {
+#burger_circle {
     transform-origin: center center;
 }
   
-#circle:active {
-    stroke-width: 10px;
-    transform:scale(1.1, 1.1);
+#burger_svg:hover #burger_circle {
+    transform:scale(1.05, 1.05);
 }
