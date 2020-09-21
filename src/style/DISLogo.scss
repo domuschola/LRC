@@ -1,14 +1,27 @@
 .dis_logo {
+    cursor: pointer;
     position: fixed;
     float: left;
-    margin-top: 21px;
-    margin-left: 40px;
-    width: 385px;
     z-index: 2;
-    cursor: pointer;
 }
 
-#dis {
-    // width: 100%;
-    float: left;
+#dis_full_logo {
+    display: block;
+    margin-top: 21px;
+    // margin-left: 40px;
+    margin-left: 7.8%;
+    // width: 385px;
+    width: 100%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#dis_short_logo {
+    display: none;
+    margin-top: 21px;
+    // margin-left: 40px;
+    margin-left: 23%;
+    width: 100%;
+    // animation-name: fadeIn;
+    // animation-duration: 1s;
 }

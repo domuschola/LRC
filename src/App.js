@@ -9,6 +9,7 @@ import Destiny from './components/Destiny';
 import Menu from './components/Menu';
 import Routes from './components/Routes';
 import "./App.css";
+import Epic from './components/Epic';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <TopNav />
                 <DISLogo />
                 <Destiny />
+                <Epic />
                 <Router>
                     <Menu />
                     <Routes />

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Padlet from './pages/Padlet';
 import Policy1 from './pages/Policy1';
 import LRCTeam from './pages/LRCTeam';
+import ContactUs from './pages/ContactUs';
 
 const routes = [
     {
@@ -27,6 +28,10 @@ const routes = [
     {
         path: "/team",
         main: () => <LRCTeam />
+    },
+    {
+        path: "/contactus",
+        main: () => <ContactUs />
     }
 ]
 

@@ -1,18 +1,18 @@
-.destiny_portal {
+.epic_portal {
     float: right;
     position: fixed;
     z-index: 2;
-    right: 170px;
+    right: 310px;
     margin-top: 26px;
     cursor: pointer;
 }
 
-#destiny_circle {
+#epic_circle {
     transition: transform .2s;
     transform-origin: center center;
 }
 
-#destiny_svg:hover #destiny_circle {
+#epic_svg:hover #epic_circle {
     stroke-width: 7px;
     transform:scale(1, 1);
 }

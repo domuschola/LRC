@@ -15,7 +15,6 @@ export class Menu extends Component {
         // document.getElementById("popup_menu").style.width = "0%";
         // document.getElementById("popup_menu").style.height = "0%";
         document.getElementById("popup_menu").style.display = "none";
-        console.log("click!");
     }
     
     render() {
@@ -29,6 +28,7 @@ export class Menu extends Component {
                         <Link class="link_text" onClick={this.closeNav} to="/padlet">Padlet</Link>
                         <Link class="link_text" onClick={this.closeNav} to="/policy1">Policy</Link>
                         <Link class="link_text" onClick={this.closeNav} to="/team">LRCTeam</Link>
+                        <Link class="link_text" onClick={this.closeNav} to="/contactus">ContactUs</Link>
                     </div>
                 </div>
 
