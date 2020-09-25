@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-// import Links from './components/Links';
-// import Switches from './components/Switches';
-// import Navbar from './components/Navbar';
 import TopNav from './components/TopNav';
 import DISLogo from './components/DISLogo';
 import Destiny from './components/Destiny';
+import Epic from './components/Epic';
 import Menu from './components/Menu';
 import Routes from './components/Routes';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
-import Epic from './components/Epic';
 
 function App() {
+    
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    });
+    
     return (
         <div className="App">
             <header className="App-header">

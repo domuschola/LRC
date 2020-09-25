@@ -1,18 +1,6 @@
-.contact_us_grid {
-    font-family: 'Roboto', sans-serif;
-    // display: grid;
-    // grid-template-areas: 
-    //     'eader header header header header headerh'
-    //     'left left left right right right';
-    
-    padding-top: 150px;
-}
-
-// .grid_item {
-//     padding: 20px;
-// }
-.contact_us_header {
-    margin-bottom: 3%;
+.contact_us {
+    padding-top: 90px;
+    padding-bottom: 5%;
 }
 
 .contact_us_header h1 {
@@ -20,36 +8,26 @@
     margin-bottom: -10px;
 }
 .contact_us_header h6 {
+    font-weight: normal;
     font-size: 150%;
-    // padding-top: -20px;
-    // margin-right: -190px;
-    margin-left: 10%;
+    margin-left: 200px;
     color: #d4880e;    
 }
 
 .contact_us_form_iframe {
-    // position:relative;
-    // overflow:hidden;
-    // box-sizing:border-box;
-    // background:#F5F5F5;
-    // background:#f3eacb;
-    // background:#f5eccf;
-    // height: 100%;
-    // padding-top: 200px;  
-
-    float: left;
-    margin-left: 5%;
+    // height:850vw; //small device
+    // height: 50vw;
+    height: 37vw;
 }
 
-.contact_details {
-    float: right;
-    margin-right: 5%;
+#map-container {
+    margin-top: 5%;
 }
 
 .contact_us_map_iframe {
-    display: block;
+    border:0;
 }
 
-.contact_address{
-    float: left;
+.round-button {
+    border-radius: 50%;
 }

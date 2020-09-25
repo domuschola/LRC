@@ -25,9 +25,8 @@ export class Menu extends Component {
 
                     <div className="menu_link">
                         <Link class="link_text" onClick={this.closeNav} to="/">Home</Link>
-                        <Link class="link_text" onClick={this.closeNav} to="/padlet">Padlet</Link>
-                        <Link class="link_text" onClick={this.closeNav} to="/policy1">Policy</Link>
-                        <Link class="link_text" onClick={this.closeNav} to="/team">LRCTeam</Link>
+                        <Link class="link_text" onClick={this.closeNav} to="/lrcpolicy">Policy</Link>
+                        <Link class="link_text" onClick={this.closeNav} to="/gallery">Gallery</Link>
                         <Link class="link_text" onClick={this.closeNav} to="/contactus">ContactUs</Link>
                     </div>
                 </div>

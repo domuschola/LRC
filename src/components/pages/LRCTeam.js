@@ -8,11 +8,11 @@ export class LRCTeam extends Component {
     render() {
         return (
             <div className="lrc_team">
-                <div className="team_header">
+                <div className="team_header roboto" data-aos="zoom-in">
                     <h6>MEET THE</h6>
                     <h1>LIBRARIANS</h1>
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <div className="librarian_img">
                         <img src={Librarian1} alt="Librarian1" />
                         <h3>Nikki Miranda</h3>

@@ -5,16 +5,16 @@ export class Padlet extends Component {
     render() {
         return (
             <div className="activity">
-                <div className="activity_header">
+                <div className="activity_header roboto" data-aos="zoom-in">
                     <h1>ACTIVITY</h1>
                     <h6>CORNER</h6>
                 </div>
 
-                <div className="padlet_picture">
+                <div className="padlet_picture" data-aos="zoom-in">
                     <img src="https://peregrinefund.org/sites/default/files/styles/raptor_banner_600x430/public/2019-11/project-philippine-eagle-portrait-casper-simon.jpg?itok=xElj0mX4" alt="eagle" />
                 </div>
 
-                <div className="padlet_embed">
+                <div className="padlet_embed" data-aos="zoom-in">
                     <iframe className="padlet_iframe" 
                         title="padlet"
                         src="https://padlet.com/embed/h1is5nyosjiozjjh" 

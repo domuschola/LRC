@@ -1,11 +1,43 @@
 .carousel_side_text {
     position: absolute;
-    display: block;
-    float: left;
-    margin-top: 15%;
-    margin-left: 2%;
-    animation: ease-in;
+    // display: block;
+    // float: left;
+    padding-top: 14%;
+    padding-left: 2%;
+    // animation: ease-in;
 }
+
+// .carousel_side_text h1 {
+//     border-right: .15em solid orange; /* The typwriter cursor */
+    // white-space: nowrap; /* Keeps the content on a single line */
+    // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    // letter-spacing: .05em; /* Adjust as needed */
+    
+    // font-size: 900%;
+    // font-weight: normal;
+
+    // text-align: left;
+    // width: 25vw;
+    // margin-left: 30px;
+    
+//     overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+//     animation:
+//       typing 3.5s steps(30, end),
+//       blink-caret .9s step-end infinite;
+// }
+  
+  /* The typing effect */
+// @keyframes typing {
+//     from { width: 0 }
+//     to { width: 100% }
+// }
+
+/* The typewriter cursor effect */
+// @keyframes blink-caret {
+//     from, to { border-color: transparent }
+//     50% { border-color: orange }
+// }
 
 .carousel_side_text_svg{
     position: absolute;
@@ -14,22 +46,17 @@
     margin-left: 30px;
 }
 
-// .carousel_side_text_svg .path {
-//     stroke-dasharray: 50;
-//     stroke-dashoffset: 5000;
+// .carousel_side_text_svg path{
+//     fill: none;
+//     stroke: white;
+//     stroke-width: 40;
+//     stroke-dasharray: 325 325;
+//     stroke-dashoffset: 325;
+//     animation: brush 5s linear infinite;
 // }
-
-// .carousel_side_text_svg .path:nth-child(2) {
-//     stroke-width: 10;
-//     animation: letter-animation 8s linear forwards;
-//     animation-delay: -0.25s;
-// }
-
-// @keyframes letter-animation {
-//     0% {
-//         stroke-dashoffset: 2600;
-//     }
-//     100% {
-//         stroke-dashoffset: 0;
-//     }
+// @keyframes brush {
+//       0% { stroke-dashoffset: 325; }
+//      20% { stroke-dashoffset: 325; }
+//      80% { stroke-dashoffset: 0; }
+//     100% { stroke-dashoffset: 0; }
 // }
